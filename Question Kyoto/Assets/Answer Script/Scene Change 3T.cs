@@ -20,22 +20,23 @@ public class SceneChanger3T : MonoBehaviour
 
     public void ChangeScene()
     {
+         scoreManagerTest.correctAnswerArray[2] = true;
         scoreManagerTest.IncrementScore();
-        SceneManager.LoadScene("3T"); // ƒV[ƒ“‚ğƒ[ƒh‚·‚é
+        SceneManager.LoadScene("3T"); // ï¿½Vï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½
     }
 
     /*
     public void IncrementScore()
     {
-        correctAnswers++; // ³“š”‚ğ‘‚â‚·
-        UpdateScoreText(); // UIƒeƒLƒXƒg‚ğXV‚·‚é
+        correctAnswers++; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ğ‘‚â‚·
+        UpdateScoreText(); // UIï¿½eï¿½Lï¿½Xï¿½gï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½ï¿½
     }
 
-    // UIƒeƒLƒXƒg‚ğXV‚·‚éƒƒ\ƒbƒh
+    // UIï¿½eï¿½Lï¿½Xï¿½gï¿½ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½éƒï¿½\ï¿½bï¿½h
     private void UpdateScoreText()
     {
-        // ƒV[ƒ““à‚ÌƒeƒLƒXƒgƒIƒuƒWƒFƒNƒg‚©‚çƒeƒLƒXƒgƒRƒ“ƒ|[ƒlƒ“ƒg‚ğæ“¾‚µA³“š”‚ğ•\¦‚·‚é
-        GameObject.FindGameObjectWithTag("ScoreText").GetComponent<Text>().text = "³“š”: " + correctAnswers.ToString();
+        // ï¿½Vï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒeï¿½Lï¿½Xï¿½gï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½eï¿½Lï¿½Xï¿½gï¿½Rï¿½ï¿½ï¿½|ï¿½[ï¿½lï¿½ï¿½ï¿½gï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        GameObject.FindGameObjectWithTag("ScoreText").GetComponent<Text>().text = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: " + correctAnswers.ToString();
     }
     */
 }
