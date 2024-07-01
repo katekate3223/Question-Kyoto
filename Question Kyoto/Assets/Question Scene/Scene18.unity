@@ -995,7 +995,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: F
+  m_Text: "\u30A2\u30AF\u30A2\u30DE\u30EA\u30F3\u4EAC\u90FD"
 --- !u!222 &464108355
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1041,8 +1041,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 286, y: -216}
-  m_SizeDelta: {x: 200, y: 60}
+  m_AnchoredPosition: {x: 298.7138, y: -216}
+  m_SizeDelta: {x: 225.4276, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &683082713
 MonoBehaviour:
@@ -1299,7 +1299,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: T
+  m_Text: "\u4EAC\u90FD\u6C34\u65CF\u9928"
 --- !u!222 &915313851
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1847,7 +1847,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: F
+  m_Text: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30EF\u30FC\u30EB\u30C9\u4EAC\u90FD"
 --- !u!222 &1784570228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1917,7 +1917,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 265
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1942,7 +1942,7 @@ Transform:
   m_GameObject: {fileID: 1792807957}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 580, y: 260, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
