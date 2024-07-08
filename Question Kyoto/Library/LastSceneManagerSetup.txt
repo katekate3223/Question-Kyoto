@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/3F2.unity
+- path: Assets/Question Scene/Scene19.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
