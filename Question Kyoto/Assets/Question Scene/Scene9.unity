@@ -721,6 +721,7 @@ GameObject:
   - component: {fileID: 542321436}
   - component: {fileID: 542321435}
   - component: {fileID: 542321438}
+  - component: {fileID: 542321439}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -792,8 +793,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 542321438}
-        m_TargetAssemblyTypeName: SceneChanger3F, Assembly-CSharp
+      - m_Target: {fileID: 542321439}
+        m_TargetAssemblyTypeName: SceneChanger3F2, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
@@ -852,6 +853,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55e3d7912e402614289aa505665cfdd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &542321439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542321432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a046ed39ed573994795393f7b6ec3a7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &581646805
@@ -2038,6 +2051,7 @@ GameObject:
   - component: {fileID: 2052567303}
   - component: {fileID: 2052567302}
   - component: {fileID: 2052567305}
+  - component: {fileID: 2052567306}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -2109,8 +2123,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2052567305}
-        m_TargetAssemblyTypeName: SceneChanger3F, Assembly-CSharp
+      - m_Target: {fileID: 2052567306}
+        m_TargetAssemblyTypeName: SceneChanger3F2, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
@@ -2169,6 +2183,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55e3d7912e402614289aa505665cfdd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2052567306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052567299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a046ed39ed573994795393f7b6ec3a7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2094694498

@@ -989,6 +989,7 @@ GameObject:
   - component: {fileID: 902173553}
   - component: {fileID: 902173552}
   - component: {fileID: 902173555}
+  - component: {fileID: 902173556}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -1060,8 +1061,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 902173555}
-        m_TargetAssemblyTypeName: SceneChanger7F, Assembly-CSharp
+      - m_Target: {fileID: 902173556}
+        m_TargetAssemblyTypeName: SceneChanger7F2, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
@@ -1120,6 +1121,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb0a78c30f6d16641bf5a0ca6ebd21c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &902173556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902173549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3bf97ac8bf7c714b9074aa05488c709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1036308201
@@ -2059,6 +2072,7 @@ GameObject:
   - component: {fileID: 2025983092}
   - component: {fileID: 2025983091}
   - component: {fileID: 2025983094}
+  - component: {fileID: 2025983095}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -2130,8 +2144,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2025983094}
-        m_TargetAssemblyTypeName: SceneChanger7F, Assembly-CSharp
+      - m_Target: {fileID: 2025983095}
+        m_TargetAssemblyTypeName: SceneChanger7F2, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
@@ -2190,6 +2204,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb0a78c30f6d16641bf5a0ca6ebd21c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2025983095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025983088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3bf97ac8bf7c714b9074aa05488c709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807

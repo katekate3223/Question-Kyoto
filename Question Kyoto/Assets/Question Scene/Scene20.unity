@@ -451,7 +451,7 @@ GameObject:
   - component: {fileID: 263268186}
   - component: {fileID: 263268185}
   - component: {fileID: 263268184}
-  - component: {fileID: 263268187}
+  - component: {fileID: 263268188}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -523,8 +523,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 263268187}
-        m_TargetAssemblyTypeName: SceneChanger7F, Assembly-CSharp
+      - m_Target: {fileID: 263268188}
+        m_TargetAssemblyTypeName: SceneChanger7F1, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
@@ -573,7 +573,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263268181}
   m_CullTransparentMesh: 1
---- !u!114 &263268187
+--- !u!114 &263268188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -582,7 +582,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 263268181}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb0a78c30f6d16641bf5a0ca6ebd21c0, type: 3}
+  m_Script: {fileID: 11500000, guid: a6383b2cbd8d88f4c92ebfde5acc19b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &287519854
@@ -1953,7 +1953,7 @@ GameObject:
   - component: {fileID: 2080571871}
   - component: {fileID: 2080571870}
   - component: {fileID: 2080571869}
-  - component: {fileID: 2080571872}
+  - component: {fileID: 2080571873}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -2025,8 +2025,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2080571872}
-        m_TargetAssemblyTypeName: SceneChanger7F, Assembly-CSharp
+      - m_Target: {fileID: 2080571873}
+        m_TargetAssemblyTypeName: SceneChanger7F1, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
@@ -2075,7 +2075,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080571866}
   m_CullTransparentMesh: 1
---- !u!114 &2080571872
+--- !u!114 &2080571873
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2084,7 +2084,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2080571866}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb0a78c30f6d16641bf5a0ca6ebd21c0, type: 3}
+  m_Script: {fileID: 11500000, guid: a6383b2cbd8d88f4c92ebfde5acc19b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2092856117

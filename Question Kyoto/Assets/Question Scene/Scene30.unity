@@ -726,7 +726,6 @@ GameObject:
   - component: {fileID: 767819581}
   - component: {fileID: 767819580}
   - component: {fileID: 767819579}
-  - component: {fileID: 767819578}
   - component: {fileID: 767819582}
   m_Layer: 5
   m_Name: Button (Legacy)
@@ -755,18 +754,6 @@ RectTransform:
   m_AnchoredPosition: {x: 376.71765, y: -90.48259}
   m_SizeDelta: {x: 235.4553, y: 321.6357}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &767819578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 767819576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fac2b8a500a8f140b81803f19ff5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &767819579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -812,7 +799,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 767819582}
-        m_TargetAssemblyTypeName: SceneChanger10F, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChanger10F2, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
@@ -870,7 +857,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 767819576}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ca011d9ec32f0141b2dc405f3178c3c, type: 3}
+  m_Script: {fileID: 11500000, guid: 12e065385e14a8a4f963508637859609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &947867524
@@ -987,7 +974,6 @@ GameObject:
   - component: {fileID: 1017098974}
   - component: {fileID: 1017098973}
   - component: {fileID: 1017098972}
-  - component: {fileID: 1017098971}
   - component: {fileID: 1017098975}
   m_Layer: 5
   m_Name: Button (Legacy)
@@ -1016,18 +1002,6 @@ RectTransform:
   m_AnchoredPosition: {x: -365.3921, y: -110.65546}
   m_SizeDelta: {x: 311.2564, y: 308.1873}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1017098971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017098969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fac2b8a500a8f140b81803f19ff5a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1017098972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1073,7 +1047,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1017098975}
-        m_TargetAssemblyTypeName: SceneChanger10F, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneChanger10F2, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
@@ -1131,7 +1105,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1017098969}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ca011d9ec32f0141b2dc405f3178c3c, type: 3}
+  m_Script: {fileID: 11500000, guid: 12e065385e14a8a4f963508637859609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1021887102

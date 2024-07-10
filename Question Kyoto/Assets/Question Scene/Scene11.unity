@@ -343,6 +343,7 @@ GameObject:
   - component: {fileID: 134019880}
   - component: {fileID: 134019879}
   - component: {fileID: 134019882}
+  - component: {fileID: 134019883}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -414,8 +415,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 134019882}
-        m_TargetAssemblyTypeName: SceneChanger4F, Assembly-CSharp
+      - m_Target: {fileID: 134019883}
+        m_TargetAssemblyTypeName: SceneChanger4F1, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
@@ -474,6 +475,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75eb1e3f2b73f844ebe0bc766741d438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &134019883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134019876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d28e74d64ee77c4da0b1695fd931193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &216798571
@@ -1066,6 +1079,7 @@ GameObject:
   - component: {fileID: 906777074}
   - component: {fileID: 906777073}
   - component: {fileID: 906777076}
+  - component: {fileID: 906777077}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -1137,8 +1151,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 906777076}
-        m_TargetAssemblyTypeName: SceneChanger4F, Assembly-CSharp
+      - m_Target: {fileID: 906777077}
+        m_TargetAssemblyTypeName: SceneChanger4F1, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
@@ -1197,6 +1211,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75eb1e3f2b73f844ebe0bc766741d438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &906777077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906777070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d28e74d64ee77c4da0b1695fd931193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &925188316
