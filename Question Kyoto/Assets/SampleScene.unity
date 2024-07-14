@@ -703,7 +703,7 @@ GameObject:
   - component: {fileID: 1257133376}
   - component: {fileID: 1257133375}
   - component: {fileID: 1257133374}
-  - component: {fileID: 1257133373}
+  - component: {fileID: 1257133377}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -731,18 +731,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -136}
   m_SizeDelta: {x: 788.3556, y: 91.9505}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1257133373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1257133371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cfb6bab7b01d740b5f064685b3ffc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1257133374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -787,9 +775,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1257133373}
-        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: ChangeSceneRandom
+      - m_Target: {fileID: 1257133377}
+        m_TargetAssemblyTypeName: SceneChanger1, Assembly-CSharp
+        m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -837,6 +825,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257133371}
   m_CullTransparentMesh: 1
+--- !u!114 &1257133377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257133371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a98dd94ce848a340b2ac3c510e20f85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1384871802
 GameObject:
   m_ObjectHideFlags: 0
